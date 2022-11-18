@@ -1,0 +1,44 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: gray;
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+nav li{
+    display:inline;
+    padding-right:20px;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+nav{
+    background-color: lightgray;
+    padding: 25px 0; 
+    text-align: center;
+}
+
+footer{
+    background-color: lightgray;
+    color: black;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+}
