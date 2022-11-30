@@ -6,29 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href = "css/html5reset.css">
     <link rel="stylesheet" href = "css/style.css">
-    <title>Sports Teams</title>
+    <title>Sports</title>
 </head>
 <body>
-    <a href="#main">Skip To Main Content</a>
+    <div class = "skip"><a href="#main">Skip To Main Content</a></div>
     <header>
         <nav>
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "football.html">Football</a></li>
-                <li><a href = "basketball.html">Basketball</a></li>
-                <li><a href = "baseball.html">Baseball</a></li>
+                <li class = "current"><a hrefs = "index.html">Home</a></li>
+                <li class = "item"><a href = "football.html">Football</a></li>
+                <li class = "item"><a href = "basketball.html">Basketball</a></li>
+                <li class = "item"><a href = "baseball.html">Baseball</a></li>
             </ul>
         </nav>
     </header>
-    <main id = main>
-        <h1> Sports </h1>
-        <img src = "index_images/football.jpg" width = "300" height = "200" alt = "scoring a touchdown in football">
-        <img src = "index_images/basketball.jpg" width = "300" height = "200" alt = "dunking a basketball">
-        <img src = "index_images/baseball.jpg" width = "300" height = "200" alt = "swinging at a baseball">
+    <h1> Home </h1>
+    <main class = "container" id = "main">
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "index_images/football.jpg" width = "300" height = "200" alt = "scoring a touchdown in football">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Sport: Football <br/>
+                    Origin: United States <br/>
+                    Time: 1869 - Present</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "index_images/basketball.jpg" width = "300" height = "200" alt = "dunking a basketball">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Sport: Basketball <br/>
+                    Origin: United States <br/>
+                    Time: 1891 - Present</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "index_images/baseball.jpg" width = "300" height = "200" alt = "swinging at a baseball">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Sport: Baseball <br/>
+                    Origin: United States <br/>
+                    Time: 1846 - Present</p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        <p>University of Michigan School of Information <br/>
-        Christopher Sayah & Remi Goldberg</p>
+        <h2>University of Michigan School of Information <br/>
+        Christopher Sayah & Remi Goldfarb</h2>
     </footer>
 </body>
 </html>

@@ -6,35 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href = "css/html5reset.css">
     <link rel="stylesheet" href = "css/style.css">
-    <title>Sports Teams</title>
+    <title>Sports</title>
 </head>
 <body>
-    <a href="#main">Skip To Main Content</a>
+    <div class = "skip"><a href="#main">Skip To Main Content</a></div>
     <header>
         <nav>
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "football.html">Football</a></li>
-                <li><a href = "basketball.html">Basketball</a></li>
-                <li><a href = "baseball.html">Baseball</a></li>
+                <li class = "item"><a href = "index.html">Home</a></li>
+                <li class = "item"><a href = "football.html">Football</a></li>
+                <li class = "item"><a href = "basketball.html">Basketball</a></li>
+                <li class = "current"><a href = "baseball.html">Baseball</a></li>
             </ul>
         </nav>
     </header>
-    <main id = main>
-        <h1> Baseball </h1>
-        <img src = "baseball_images/shohei_ohtani.jpg" width = "300" height = "200" alt = "Shohei Ohtani">
-        <img src = "baseball_images/mike_trout.jpg" width = "300" height = "200" alt = "Mike Trout">
-        <img src = "baseball_images/fernando_tatis_jr.jpg" width = "300" height = "200" alt = "Fernando Tatis Jr">
-        <img src = "baseball_images/juan_soto.jpg" width = "300" height = "200" alt = "Juan Soto">
-        <img src = "baseball_images/bryce_harper.jpg" width = "300" height = "200" alt = "Bryce Harper">
-        <img src = "baseball_images/mookie_betts.jpg" width = "300" height = "200" alt = "Mookie Betts">
-        <img src = "baseball_images/jacob_degrom.jpg" width = "300" height = "200" alt = "Jacob Degrom">
-        <img src = "baseball_images/vladimir_guerrero_jr.jpg" width = "300" height = "200" alt = "Vladimir Guerrero Jr">
-        <img src = "baseball_images/freddie_freeman.jpg" width = "300" height = "200" alt = "Freddie Freeman">
+    <h1> Baseball </h1>
+    <main class = "flex-box" id = "main">
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "baseball_images/shohei_ohtani.jpg" width = "300" height = "200" alt = "Shohei Ohtani">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Player: Shohei Ohtani <br/>
+                    Team: Los Angeles Angels <br/>
+                    Time: 2013 - Present</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "baseball_images/mike_trout.jpg" width = "300" height = "200" alt = "Mike Trout">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Player: Mike Trout <br/>
+                    Team: Los Angeles Angels <br/>
+                    Time: 2011 - Present</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "baseball_images/fernando_tatis_jr.jpg" width = "300" height = "200" alt = "Fernando Tatis Jr">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Player: Fernando Tatis Jr <br/>
+                    Team: San Diego Padres <br/>
+                    Time: 2019 - 2021</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "baseball_images/juan_soto.jpg" width = "300" height = "200" alt = "Juan Soto">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Player: Juan Soto <br/>
+                    Team: San Diego Padres <br/>
+                    Time: 2018 - Present</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "baseball_images/bryce_harper.jpg" width = "300" height = "200" alt = "Bryce Harper">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Player: Bryce Harper <br/>
+                    Team: Philadelphia Phillies <br/>
+                    Time: 2012 - Present</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "baseball_images/mookie_betts.jpg" width = "300" height = "200" alt = "Mookie Betts">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Player: Mookie Betts <br/>
+                    Team: Los Angeles Dodgers <br/>
+                    Time: 2014 - Present</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "baseball_images/jacob_degrom.jpg" width = "300" height = "200" alt = "Jacob Degrom">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Player: Jacob Degrom <br/>
+                    Team: New York Mets <br/>
+                    Time: 2014 - Present</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "baseball_images/vladimir_guerrero_jr.jpg" width = "300" height = "200" alt = "Vladimir Guerrero Jr">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Player: Vladimir Guerrero Jr <br/>
+                    Team: Toronto Blue Jays <br/>
+                    Time: 2019 - Present</p>
+                </div>
+            </div>
+        </div>
+        <div class = "flip-box">
+            <div class = "flip-box-inner">
+                <div class = "flip-box-front">
+                    <img src = "baseball_images/freddie_freeman.jpg" width = "300" height = "200" alt = "Freddie Freeman">
+                </div>
+                <div class = "flip-box-back">
+                    <p>Player: Freddie Freeman <br/>
+                    Team: Los Angeles Dodgers <br/>
+                    Time: 2010 - Present</p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        <p>University of Michigan School of Information <br/>
-        Christopher Sayah & Remi Goldberg</p>
+        <h2>University of Michigan School of Information <br/>
+        Christopher Sayah & Remi Goldfarb</h2>
     </footer>
 </body>
 </html>
