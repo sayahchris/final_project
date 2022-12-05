@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: silver;
     font-size: 18px;
     line-height: 1.15;
     margin: 0px;
@@ -175,7 +175,7 @@ footer{
     }
     
     .flip-box-back{
-        background-color: gray;
+        background-color: silver;
         color: black;
         border: black dashed 3px;
         transform: rotateY(180deg);
